@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    height: 3.1em;
+    background-color: black;
+}
+
+.is-white {
+    color: white;
+}
+
+.nav-items-container{
+    width: 400px;
+    height: 3em;
+    right: 0;
+    position: absolute;
+}
+
+.nav-items-container ul {
+    list-style: none;
+    margin: 0;
+}
+
+.nav-items-container ul li {
+    float: left;
+    cursor: pointer;
+    width: 5em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 5px;
+
+}
+
+
+.nav-items-container ul li:hover {
+    background-color: gray;
+    transition:   background-color 0.5s ease-in;
+} 
+
+#hero-phrase {
+    width: 100vw;
+    height: 80vh;
+    background-image: url('https://images.unsplash.com/photo-1465189684280-6a8fa9b19a7a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29640b60327a3b66e91817e39adc433a&auto=format&fit=crop&w=1050&q=80');
+    background-repeat: none;
+}
+
+
+.is-center {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.is-circle {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 30%;
+    border-radius:50%;
+    background-image: url('../assets/images/Rodrigo.jpg');
+    background-size: 100%;
+
+}
+
