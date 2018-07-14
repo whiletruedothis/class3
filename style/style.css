@@ -1,3 +1,5 @@
+@import url('icons.css');
+
 body {
     margin: 0;
 }
@@ -49,7 +51,8 @@ nav {
 #hero-phrase {
     width: 100vw;
     height: 80vh;
-    background-image: url('https://images.unsplash.com/photo-1465189684280-6a8fa9b19a7a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29640b60327a3b66e91817e39adc433a&auto=format&fit=crop&w=1050&q=80');
+    background-image: url('../assets/images/cover.jpg');
+    background-size: cover;
     background-repeat: none;
 }
 
@@ -72,3 +75,53 @@ nav {
 
 }
 
+.a{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+.a:hover {
+    width: 200px;
+    background-color: yellow;
+    transition: background-color 2s ease-in;
+    transition: width 2s ease-in;
+}
+
+
+.blog-container {
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.is-card {
+    width: 15em;
+    height: 10em;
+    margin: 1em;
+
+}
+
+.is-card figure {
+    width: 100%;
+    height: 70%;
+    margin: 0;
+    background-color: yellow;
+}
+
+.is-card figure img {
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.is-card section {
+    width:100%;
+    height: 30%;
+
+    box-shadow: 10px 15px 49px -5px rgba(0,0,0,0.75);
+}
+
+.is-card section p {
+    padding: 20px 5px 0 5px;
+}
